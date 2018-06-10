@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+    }
+
+body {
+    background-image: url("..//images/funky-lines.png");
+    background-size: 100%;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;  
+
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff ;
+    width: 100%;
+}
+
+footer {
+    background-color: #666666;
+}
+#content {
+    width: 960px;
+    margin: auto;
+
+}
+
+
+
+.navbar{
+    width: 960px;
+    margin: auto;
+    top: 0;
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
