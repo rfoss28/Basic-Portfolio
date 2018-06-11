@@ -47,7 +47,7 @@ h1{
     width: 920px;
     margin: 20px auto;
     border: 20px solid white;
-    min-height: calc(100vh - 70px);
+    min-height: 300px;
 }
 
 
@@ -92,8 +92,12 @@ hr{
     position: fixed;
     bottom: 0;
     width: 100%;
-
-
+}
+input[type=submit]{
+    background-color:#4aaaa5;
+    color: #ffffff;
+    border: 0;
+    padding: 20px;
 }
 
 
