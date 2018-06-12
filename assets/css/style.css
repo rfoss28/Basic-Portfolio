@@ -100,5 +100,17 @@ input[type=submit]{
     padding: 20px;
 }
 
+.portname{
+    background-color:#4aaaa5; 
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 200px;
+}
+
+.image{
+    position: relative;
+    width: 25%;
+}
 
 
