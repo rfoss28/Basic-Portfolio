@@ -20,26 +20,20 @@ header {
 }
 
 .name{
-background-color:#4aaaa5;
-color: #ffffff;
-float: left;
-vertical-align: top;
-overflow: hidden;
-padding: 22px;
-position: absolute;
-top: 0px;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    float: left;
+    vertical-align: top;
+    overflow: hidden;
+    padding: 22px;
+    position: absolute;
+    top: 0px;
 
-}   
+    }   
 
 h1{
     color: #4aaaa5;
 }
-
-#imgfloat{
-    float: left;
-
-}
-
 
 
 .content {
@@ -48,6 +42,8 @@ h1{
     margin: 20px auto;
     border: 20px solid white;
     min-height: 300px;
+    clear: both;
+    overflow: hidden;
 }
 
 
@@ -101,16 +97,31 @@ input[type=submit]{
 }
 
 .portname{
-    background-color:#4aaaa5; 
     position: absolute;
+    background-color:#4aaaa5; 
     width: 100%;
     left: 0;
-    top: 200px;
+    top: 60%;
+    padding: 20px 0;
 }
 
-.image{
+
+.labeledimage{
     position: relative;
-    width: 25%;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    
+    }
+
+
+    .clearfix {
+        overflow: auto;
+    }
+
+.floatedcontainer{
+    max-width: 500px;
 }
-
-
+.newline{
+    clear: left;
+}
