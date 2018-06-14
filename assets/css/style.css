@@ -108,9 +108,16 @@ input[type=submit]{
     padding: 20px;
 }
 
-.contactform{
-    border-color: #dddddd;
+input[type=text]{
+   border:#dddddd solid;
 }
+
+textarea{
+    border:#dddddd solid;
+}
+
+
+
 
 .portname{
     position: absolute;
