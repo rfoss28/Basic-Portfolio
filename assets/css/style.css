@@ -105,15 +105,19 @@ input[type=submit]{
     background-color:#4aaaa5;
     color: #ffffff;
     border: 0;
-    padding: 20px;
+    padding: 5px 20px;
+    font-size: 14pt;
 }
 
 input[type=text]{
    border:#dddddd solid;
+   padding: 10px;
+   border-width: .5px;
 }
 
 textarea{
     border:#dddddd solid;
+    border-width: .5px;
 }
 
 
