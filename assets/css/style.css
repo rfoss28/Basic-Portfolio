@@ -17,6 +17,7 @@ header {
     width: 100%;
     padding: 20px 0 20px 0;
     border-bottom: 5px solid #cccccc;
+    position: fixed;
 }
 
 .name{
@@ -48,7 +49,7 @@ h4{
 .content {
     background-color:#ffffff;
     width: 920px;
-    margin: 20px auto;
+    margin: 80px auto 30px auto;
     padding: 20px;
     min-height: 300px;
     clear: both;
@@ -158,3 +159,4 @@ textarea{
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
